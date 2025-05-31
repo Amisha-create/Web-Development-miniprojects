@@ -1,0 +1,31 @@
+.container{
+    width:500px;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+
+.box{
+    font-size:20px;
+    width:200px;
+    height:200px;
+    padding:4px;
+    background-color:beige;
+    border:3px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:all 2s linear;
+}
+
+.box:hover{
+    background-color:red;
+    /* transform:rotate(45deg); */
+    /* transform:scale(4) */
+    /* transform : skew(45deg); */
+        /* transform: translate(500px, 500px); */
+        transform:scalex(3.5);  
+        /* used for stratching in x and y direction*/
+}
