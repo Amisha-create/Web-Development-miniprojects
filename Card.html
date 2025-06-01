@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card uing CSS</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .container{
+           width:100%;
+           height:100%; 
+           min-height:900px;
+           background: #833AB4;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .card{
+            width:360px;
+            height:550px;
+            background-color: white;
+            border-radius:20px;
+
+            display:flex;
+            flex-direction: column;
+            
+            align-items:center; 
+            gap:30px;
+            display:inline-block;
+        }
+
+        .card img{
+            height:50%;
+            width:350px;
+            padding:20px;
+            border-radius:10px;
+        }
+
+          h2{
+            padding:20px;
+            font-weight:bold;
+            }
+
+            p{
+                padding:20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="qrcode.jpeg" alt="">
+            <h2>Build your projects on CSS and improve your frontend skills.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum laboriosam eius magni neque dicta sed debitis explicabo possimus! Autem, veritatis.</p>
+        </div>
+
+    </div>
+</body>
+</html>
